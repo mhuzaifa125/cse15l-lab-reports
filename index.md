@@ -6,6 +6,10 @@ Hello, world!
 
 ---
 
+horizontal line above
+
+list below
+
 * list item 1
 * 2
 * 3
