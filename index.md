@@ -8,8 +8,6 @@ Hello, world!
 
 horizontal line above
 
-![Image](https://cdn.discordapp.com/attachments/334890305364951042/931331387456364564/719D2979-8EF5-48B2-B469-CE25916CB174_1_105_c.jpeg)
-
 list below
 
 * list item 1
