@@ -1,3 +1,5 @@
+[Lab Report 1](lab-report-1-week-2.html)
+
 Hello, world!
 
 # This is a heading
