@@ -1,6 +1,6 @@
 # Remote Access
 
-1. Install VScode
+## 1. Install VScode
 
 Navigate to [VScode](https://code.visualstudio.com/) to get started with the install.
 
@@ -12,7 +12,7 @@ Once the installation is complete, launch VScode and you should see something si
 
 That's it, you're finished with installing VScode.
 
-2. Connecting Remotely
+## 2. Connecting Remotely
 
 Please navigate to the following website to lookup your account.
 
@@ -34,7 +34,7 @@ Select 'yes' on the following prompt and then enter your UCSD password.
 
 That's it! You should now be connected remotely!
 
-3. Running Commands
+## 3. Running Commands
 
 Now that we're connected remotely to the server, we can now issue commands.
 
@@ -46,7 +46,7 @@ You should get something like this:
 
 That's all there is to it! You've now successfully run commands on the server.
 
-4. Moving Files with scp
+## 4. Moving Files with scp
 
 At some point you may have the need to move files from your computer to the server (or other way around). We can do this using the ```scp``` command. Make sure to begin using the command from the client and not the server.
 
@@ -56,7 +56,7 @@ Say you want to move a file called 'WhereAmI.java' from your computer in the cur
 
 Notice that once the file is on the server, we will be able to interact with it using commands on the server. That's how to move files from your computer (client) to the server using the 'scp' command.
 
-5. Setting an SSH Key.
+## 5. Setting an SSH Key.
 
 We can get around having to input a password every time we want to login to our server using SSH Keys. Using the command ```ssh-keygen``` on the client computer (your computer), we generate a public and private key. The public key should be put on a specified location on the server while the private key is put on the client computer in a specified location.
 
@@ -72,7 +72,7 @@ Once we finish with this step we're all done with setting up the ssh key! We sho
 
 ![Image](no-pw.png)
 
-6. Optimizing Remote Running
+## 6. Optimizing Remote Running
 
 Now that we have the ssh-key setup, we can do some cool tricks that make working on a remote server even more convenient!
 
