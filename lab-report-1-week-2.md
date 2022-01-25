@@ -26,7 +26,7 @@ It should be similar to cs15lwi22zz@ieng6.ucsd.edu where the 'zz' characters are
 
 In your VScode terminal, run the following command:
 
-ssh cs15lwi22zz@ieng6.ucsd.edu
+```ssh cs15lwi22zz@ieng6.ucsd.edu```
 
 Make sure to replace the 'zz' with your unique account characters.
 
@@ -48,9 +48,9 @@ That's all there is to it! You've now successfully run commands on the server.
 
 4. Moving Files with scp
 
-At some point you may have the need to move files from your computer to the server (or other way around). We can do this using the 'scp' command. Make sure to begin using the command from the client and not the server.
+At some point you may have the need to move files from your computer to the server (or other way around). We can do this using the ```scp``` command. Make sure to begin using the command from the client and not the server.
 
-Say you want to move a file called 'WhereAmI.java' from your computer in the current working directory to the server. You would run the 'scp' command like below to do so.
+Say you want to move a file called 'WhereAmI.java' from your computer in the current working directory to the server. You would run the ```scp``` command like below to do so.
 
 ![Image](scp.png)
 
@@ -58,9 +58,9 @@ Notice that once the file is on the server, we will be able to interact with it 
 
 5. Setting an SSH Key.
 
-We can get around having to input a password every time we want to login to our server using SSH Keys. Using the command 'ssh-keygen' on the client computer (your computer), we generate a public and private key. The public key should be put on a specified location on the server while the private key is put on the client computer in a specified location.
+We can get around having to input a password every time we want to login to our server using SSH Keys. Using the command ```ssh-keygen``` on the client computer (your computer), we generate a public and private key. The public key should be put on a specified location on the server while the private key is put on the client computer in a specified location.
 
-The location to put the public key on the remote server is ~/.ssh/authorized_keys.
+The location to put the public key on the remote server is ```~/.ssh/authorized_keys```.
 
 The command we want to run to put the public key in the correct location should look something like this.
 
@@ -78,7 +78,7 @@ Now that we have the ssh-key setup, we can do some cool tricks that make working
 
 For example, to connect to the server and run a command and logout immediately from the server we can do the following:
 
-ssh cs15lwi22@ieng6.ucsd.edu "command"
+```ssh cs15lwi22@ieng6.ucsd.edu "command"```
 
 Where command is the command we want to run.
 
