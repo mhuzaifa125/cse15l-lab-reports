@@ -92,4 +92,6 @@ In this example, we first copy the file 'WhereAmI.java' to the remote server in 
 
 And done!
 
+So if we were to make a local edit to the WhereAmI.java file and had it saved to our client and we wanted to send it to the server, compile the java file, and then run it, assuming we ran the command in the screenshot just before, it would take a total of 2 keystrokes to accomplish this. Up arrow once in terminal which would bring back the last command executed, and then the 'Enter' key which would execute the command.
+
 That concludes this short tutorial of getting familiar with remote access to a server.
