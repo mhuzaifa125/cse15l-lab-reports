@@ -24,6 +24,9 @@ Here is the file that prompted the change:
 ![Image](change2.png)
 
 2. Link to file
+
+Here is the file that prompted the change
+
 [Link](https://github.com/mhuzaifa125/markdown-parse/blob/main/link-first.md)
 
 3. The symptom of this bug was an error when running the file because of trying to access the -1 index of a string.
@@ -36,6 +39,9 @@ Here is the file that prompted the change:
 ![Image](change3.png)
 
 2. Link to file
+
+Here is the file that prompted the change
+
 [Link](https://github.com/mhuzaifa125/markdown-parse/blob/main/test2.md)
 
 3. Here is what the symptom of the bug looked like:
