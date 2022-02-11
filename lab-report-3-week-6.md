@@ -11,3 +11,7 @@ On the user account on ieng6, the ssh keys are stored in the ```.ssh``` director
 ![Image](ssh-keys_ieng6.png)
 
 The private key is the file without the extension of pub.
+
+## Pushing Edits from ieng6
+
+This line was added from ieng6
