@@ -23,3 +23,5 @@ The previous line was added from ieng6 as shown below
 After saving and running ```git add lab-report-3-week-6.md``` followed by ```git commit -m "Commiting a change from ieng6"``` we are able to push the changes as below.
 
 ![Image](ieng6-push.png)
+
+The commit can be found here: [commit](https://github.com/mhuzaifa125/cse15l-lab-reports/commit/f0cbce6ca94cc2a2d5e5be0cbaa2c2aaa3387027)
