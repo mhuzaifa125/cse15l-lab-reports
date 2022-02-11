@@ -15,3 +15,11 @@ The private key is the file without the extension of pub.
 ## Pushing Edits from ieng6
 
 This line was added from ieng6
+
+The previous line was added from ieng6 as shown below
+
+![Image](ieng6-edit.png)
+
+After saving and running ```git add lab-report-3-week-6.md``` followed by ```git commit -m "Commiting a change from ieng6"``` we are able to push the changes as below.
+
+![Image](ieng6-push.png)
