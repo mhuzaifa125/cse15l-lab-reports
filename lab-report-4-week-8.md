@@ -6,6 +6,12 @@
 
 [Johnson Li's Repository](https://github.com/johnsonli010801/markdown-parse)
 
+## Snippet Tests
+
+Below are the tests for snippet 1, snippet 2, and snippet 3 including the expected results from VS Code preview.
+
+[Image](snippet-tests.png)
+
 ## Snippet Test results
 
 ### My MarkdownParse:
