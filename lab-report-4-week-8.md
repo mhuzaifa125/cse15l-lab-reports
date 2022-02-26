@@ -6,6 +6,8 @@
 
 [Johnson Li's Repository](https://github.com/johnsonli010801/markdown-parse)
 
+Note: The snippet fixes discussion is the same for both repositories as the code seems to have the same result for each of the tests.
+
 ## Snippet Tests
 
 Below are the tests for snippet 1, snippet 2, and snippet 3 including the expected results from VS Code preview.
